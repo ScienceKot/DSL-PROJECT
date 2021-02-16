@@ -1,0 +1,31 @@
+state Start
+state FL
+state FR
+state FI
+state BL
+state BR
+state BI
+state SL
+state SR
+state SF
+state trap(trap=True)
+
+# comentariu
+
+Start -> FI : *
+FI -> SF : threshold(dist1, 4, min)
+SF -> FI : threshold(calc_dist, car_lenght, max)
+FI -> BS : timepassed(4)
+BI -> BR : timepassed(6)
+BR -> BL : timepassed(6)
+BL -> FI : timepassed(6)
+FI -> SI : timepassed(3)
+
+gateway gate1 numerical
+gateway gate2 numerical
+gateway dist1 numerical
+gateway gate4 numerical
+gateway gate5 numerical
+gateway gate6 numerical
+gateway calc_dist numerical
+gateway car_lenght numerical
