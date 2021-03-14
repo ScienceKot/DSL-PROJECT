@@ -1,0 +1,11 @@
+state Unsigned(start=True)
+state Pending
+state Declined
+state Completed
+
+Unsigned -> Pending : *
+Pending -> Declined : threshold(from_amount, amount_transfered, min)
+Pending -> Completed : threshold(from_amount, amount_transfered, max)
+
+gateway from_amount numerical
+gateway amount_transfered numerical

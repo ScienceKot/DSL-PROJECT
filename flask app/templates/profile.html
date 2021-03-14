@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {{ email }}
+    {{ money }}
+    <a href="{{ url_for('transaction', id=id) }}">Create Transaction</a>
+
+
+    {% for transfer in transfers %}
+        <p>{{transfer.from_id}} -> {{transfer.to_id}} | {{transfer.amount}}</p>
+    {% endfor %}
+</body>
+</html>
