@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.body {
+    background: #FFCFA1;
+    width: 100%;
+}
+.home-page {
+    max-width: 100%;
+    width: 100%;
+    height: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gilroy', sans-serif;
+    background: #FFCFA1; 
+  }
+
+  .try-now {
+    padding-top: 180px;
+    padding-left: 100px;
+    font-size: 2.5em;
+    margin-top: auto;
+   
+  }
+  
+  .try-now-button {
+    max-width: 300px;
+    height: 70px;
+    width: 200px;
+    font-size: 1em;
+    font-family: 'Gilroy', sans-serif;
+    color: #ffffff;
+    border-radius: 60px;
+    background: #fa6841;
+    border: solid 2px #fa6841;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .try-now-button:hover{
+    box-shadow: 0px 0px 7px 6px rgb(240, 164, 136);
+    cursor: pointer;
+  }

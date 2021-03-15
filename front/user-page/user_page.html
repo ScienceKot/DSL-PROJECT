@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blazar</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="user-page.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">  
+</head>
+
+<body>
+    <div class="user-page">
+        <div class="create-transfer">
+                <image class="image" src="user.png"></image>
+                <form class="transfer-form" >
+                    <label>
+                        <input type="email" id="email" name="email" placeholder="email@.com"  required/>
+                    </label>
+                    <label>
+                        <input type="text" id="balance" name="balance" placeholder="Balance: "  required/>
+                    </label>
+                </form>
+                <button class="create-transfer-button">Create transfer</button>
+        </div>
+        <div class="transaction-history">
+            <h1>Transaction History</h1>
+            <table class="transaction-info">
+            <tbody >
+                <tr>
+                    <td class="amount-of-money" colspan="1">
+                        -100$
+                    </td>
+                    <td class="receiver" colspan="3">
+                        to user1
+                    </td>
+                    <td class="validation" colspan="1">
+                        Verified
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+            <table class="transaction-info">
+                <tbody >
+                    <tr>
+                        <td class="amount-of-money" colspan="1">
+                            +70$
+                        </td>
+                        <td class="receiver" colspan="3">
+                            from user2
+                        </td>
+                        <td class="validation" colspan="1">
+                            Done
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="transaction-info">
+                <tbody >
+                    <tr>
+                        <td class="amount-of-money" colspan="1">
+                            -200$
+                        </td>
+                        <td class="receiver" colspan="3">
+                            to user1
+                        </td>
+                        <td class="validation" colspan="1">
+                            Denied
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

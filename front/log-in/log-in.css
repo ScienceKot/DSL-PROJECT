@@ -1,0 +1,100 @@
+body{
+    --size-form-log-in:1400px;
+   margin:0;
+   padding:0;
+   font-family: 'Gilroy', sans-serif;
+}
+
+.container-log-in{
+    display:flex;
+    flex-direction: column;
+    width:100vw;
+    height:100vh;
+    margin-left:auto;
+    margin-right:auto;
+    background: #FFCFA1;
+    background-size: cover;
+}
+
+.log-in-title{
+    font-family: 'Gilroy', sans-serif;
+}
+
+.log-in-title{
+    text-align: center;
+    font-size:3em;
+    margin-top:2.5%;
+    align-self: center;
+}
+
+.log-in {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.log-in-div{
+    padding:20px;
+    margin-left:auto;
+    margin-right:auto;
+    height:450px;
+    max-width:calc(var(--size-form-log-in) / 1.5);
+    width:38vw;
+    border-radius: 15px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background:#97ba52;
+  
+}
+
+.log-in-form{  
+    max-width:calc(var(--size-form-log-in) / 1.5); 
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+ 
+}
+
+h2 {
+    color:white;
+    padding-left: 10px;
+    font-size: 1.7em;
+    margin-bottom: 0px;
+}
+
+.log-in-form label input, .log-in-form .names label input{
+    max-width:calc(var(--size-form-log-in) / 1.6);
+    width:36vw;
+    height:35px;
+    margin:5px;
+    padding:5px;
+    background: #637b4b;
+    border: 1px solid #637b4b;
+   font-size:1em;
+   
+}
+input[type=submit]{   
+    cursor: pointer; 
+    width:180px;
+    height:1.8em;
+    font-size:1.7em;
+    font-family: 'Gilroy', sans-serif;
+    border-radius: 40px;
+    background:#ff9b57;
+    border:solid 1px #ff9b57;
+    margin-top:90px;
+    color: white;
+    align-self: center;
+}
+
+.log-in-form .names label input{
+    max-width:calc(var(--size-form-log-in) / 3.3);
+    width:33vw;
+    margin-left: -5px;
+    margin-right: -5px;   
+}
+
+input[type="submit"]:hover{
+    box-shadow: 0px 0px 26px 3px rgba(255,255,255,0.62);
+}

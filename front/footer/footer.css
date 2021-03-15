@@ -1,0 +1,45 @@
+*, body{
+    margin:0;
+    padding: 0;
+}
+
+footer{
+   display: flex;
+   flex-direction: row;
+   background-color: black; 
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height:50px;
+   color:white;
+   text-align:center;
+   font-family:  sans-serif;
+   padding:10px;
+}
+
+.logo {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 0;
+    padding-left: 10px;
+}
+
+h2 {
+    color: white;
+    padding-left: 20px;
+    align-items: baseline;
+}
+
+.social-medias {
+    flex-grow: 2;
+}
+
+img {
+    max-width: 40px;
+}
+
+.logo-image {
+    max-width: 200px;
+}

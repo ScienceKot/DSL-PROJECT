@@ -1,0 +1,31 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    background-color: #637b4b ; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100vw;
+    max-width: 100%;
+    padding: 10px;
+    height: 45px;
+    align-items: center;
+}
+
+.logo-image {
+    align-items: center;
+    max-width: 200px;
+   
+}
+
+.logo {
+    margin-left: 20px;
+    padding-left: 20px;
+    align-items: center;
+    margin-top: -10px;
+}
+
